@@ -1,0 +1,20 @@
+{
+  "homepage": "https://ditjddlf31.github.io/homepage_with-llm/",
+  "name": "food-recommendation-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "predeploy" : "npm run build",
+    "deploy" : "gh-pages -d build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.3",
+    "gh-pages": "^6.1.1"
+  }
+}
